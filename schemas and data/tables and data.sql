@@ -1,5 +1,4 @@
-﻿ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
-DROP TABLE banco CASCADE CONSTRAINTS;
+﻿DROP TABLE banco CASCADE CONSTRAINTS;
 DROP TABLE boleta CASCADE CONSTRAINTS;
 DROP TABLE ciudad CASCADE CONSTRAINTS;
 DROP TABLE cliente CASCADE CONSTRAINTS;
@@ -22,7 +21,7 @@ DROP SEQUENCE seq_error;
 
 
 
-
+ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY';
 
 CREATE TABLE banco (
     codbanco     NUMBER(2) NOT NULL,
@@ -499,17 +498,17 @@ INSERT INTO PROMOCION VALUES (113,'CAMBIO PASTILLA FRENO SUZUKI MARUTI, LAVADO G
 update vendedor set nombre= upper(nombre), mail=upper(mail);
 
 
-insert into factura values (11520,'6245678-1','12456778-1',to_date('02/01 /2022'),to_date('02/02 /2022'),100000,19000,119000,1,4,'178904', 'EM');
-insert into factura values (11521,'7812354-2','10712354-2',to_date('02/01 /2022'),NULL,149000,28310,177310,NULL,1,NULL,'EM');
-insert into factura values (11522,'9912478-3','12456778-1',to_date('03/02 /2022'),NULL,209400,39786,249186,2,3,NULL,'PA');
-insert into factura values (11523,'14456789-4','11124678-3',to_date('04/02 /2022'),NULL,37500,7125,44625,NULL,1,NULL,'EM');
-insert into factura values (11524,'11245678-5','11124678-3',to_date('15/02 /2022'),NULL,58455,11606,69561,2,4,NULL,'EM');
-insert into factura values (11525,'6467708-6','12456778-1',to_date('16/02 /2022'),'16/03 /2020',30000,5700,35700,2,4,'8904865', 'EM');
-insert into factura values (11526,'10125945-7','10456789-4',to_date('17/02 /2022'),NULL,29700,5643,35343,2,3,NULL,'PA');
-insert into factura values (11527,'8125781-8','10712354-2',to_date('07/03 /2022'),NULL,29700,5643,35343,NULL,1,NULL,'EM');
-insert into factura values (11528,'13746912-9','10712354-2',to_date('07/03 /2022'),NULL,29700,5643,35343,2,4,'CF-123647','EM');
-insert into factura values (11529,'5446780-0','10456789-4',to_date('08/03 /2022'),NULL,21900,4161,26061,NULL,1,NULL,'EM');
-insert into factura values (11530,'10812874-0','10456789-4',to_date('08/03 /2022'),NULL,27000,5130,32130,NULL,1,NULL,'EM');
+insert into factura values (11520,'6245678-1','12456778-1',to_date('02/01 /2025'),to_date('02/02 /2025'),100000,19000,119000,1,4,'178904', 'EM');
+insert into factura values (11521,'7812354-2','10712354-2',to_date('02/01 /2025'),NULL,149000,28310,177310,NULL,1,NULL,'EM');
+insert into factura values (11522,'9912478-3','12456778-1',to_date('03/02 /2025'),NULL,209400,39786,249186,2,3,NULL,'PA');
+insert into factura values (11523,'14456789-4','11124678-3',to_date('04/02 /2025'),NULL,37500,7125,44625,NULL,1,NULL,'EM');
+insert into factura values (11524,'11245678-5','11124678-3',to_date('15/02 /2025'),NULL,58455,11606,69561,2,4,NULL,'EM');
+insert into factura values (11525,'6467708-6','12456778-1',to_date('16/02 /2025'),'16/03 /2020',30000,5700,35700,2,4,'8904865', 'EM');
+insert into factura values (11526,'10125945-7','10456789-4',to_date('17/02 /2025'),NULL,29700,5643,35343,2,3,NULL,'PA');
+insert into factura values (11527,'8125781-8','10712354-2',to_date('07/03 /2025'),NULL,29700,5643,35343,NULL,1,NULL,'EM');
+insert into factura values (11528,'13746912-9','10712354-2',to_date('07/03 /2025'),NULL,29700,5643,35343,2,4,'CF-123647','EM');
+insert into factura values (11529,'5446780-0','10456789-4',to_date('08/03 /2025'),NULL,21900,4161,26061,NULL,1,NULL,'EM');
+insert into factura values (11530,'10812874-0','10456789-4',to_date('08/03 /2025'),NULL,27000,5130,32130,NULL,1,NULL,'EM');
 
 INSERT INTO DETALLE_FACTURA VALUES (11520,1,25000,100,'FILTRO DE aceite GRATIS AMALIE',0,4,100000);
 INSERT INTO DETALLE_FACTURA VALUES (11521,15,12900,NULL,NULL,0,10,129000);
@@ -527,17 +526,17 @@ INSERT INTO DETALLE_FACTURA VALUES (11529,22,21900,null,null,0,1,21900);
 INSERT INTO DETALLE_FACTURA VALUES (11530,24,27000,null,null,0,1,27000);
 
 
-insert into BOLETA values (120,'6245678-1','12456778-1',to_date('22/10/2022'),119000,1,4,'DS4344', 'EM');
-insert into BOLETA values (121,'7812354-2','10712354-2',to_date('22/10/2022'),177310,NULL,1,NULL,'EM');
-insert into BOLETA values (122,'9912478-3','12456778-1',to_date('23/10/2021'),249186,2,3,NULL,'PA');
-insert into BOLETA values (123,'14456789-4','11124678-3',to_date('24/10/2021'),44625,NULL,1,NULL,'EM');
-insert into BOLETA values (124,'11245678-5','11124678-3',to_date('25/10/2022'),69561,2,4,NULL,'EM');
-insert into BOLETA values (125,'6467708-6','10456789-4',to_date('26/11/2022'),35700,2,4,'4865', 'EM');
-insert into BOLETA values (126,'10125945-7','12456778-1',to_date('27/08/2022'),35343,2,3,NULL,'PA');
-insert into BOLETA values (127,'8125781-8','10712354-2',to_date('17/10/2022'),35343,NULL,1,NULL,'EM');
-insert into BOLETA values (128,'13746912-9','10456789-4',to_date('17/09/2022'),35343,2,4,'S/N 36147','EM');
-insert into BOLETA values (129,'5446780-0','12456778-1',to_date('18/09/2022'),26061,NULL,1,NULL,'EM');
-insert into BOLETA values (130,'10812874-0','10456789-4',to_date('18/10/2022'),32130,NULL,1,NULL,'EM');
+insert into BOLETA values (120,'6245678-1','12456778-1',to_date('22/10/2025'),119000,1,4,'DS4344', 'EM');
+insert into BOLETA values (121,'7812354-2','10712354-2',to_date('22/10/2025'),177310,NULL,1,NULL,'EM');
+insert into BOLETA values (122,'9912478-3','12456778-1',to_date('23/10/2024'),249186,2,3,NULL,'PA');
+insert into BOLETA values (123,'14456789-4','11124678-3',to_date('24/10/2024'),44625,NULL,1,NULL,'EM');
+insert into BOLETA values (124,'11245678-5','11124678-3',to_date('25/10/2025'),69561,2,4,NULL,'EM');
+insert into BOLETA values (125,'6467708-6','10456789-4',to_date('26/11/2025'),35700,2,4,'4865', 'EM');
+insert into BOLETA values (126,'10125945-7','12456778-1',to_date('27/08/2025'),35343,2,3,NULL,'PA');
+insert into BOLETA values (127,'8125781-8','10712354-2',to_date('17/10/2025'),35343,NULL,1,NULL,'EM');
+insert into BOLETA values (128,'13746912-9','10456789-4',to_date('17/09/2025'),35343,2,4,'S/N 36147','EM');
+insert into BOLETA values (129,'5446780-0','12456778-1',to_date('18/09/2025'),26061,NULL,1,NULL,'EM');
+insert into BOLETA values (130,'10812874-0','10456789-4',to_date('18/10/2025'),32130,NULL,1,NULL,'EM');
 
 
 
