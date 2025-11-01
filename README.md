@@ -35,7 +35,7 @@ Estructura general del modelo entidad-relación de la base de datos.
 Ejemplo de trigger aplicado tras una operación **UPDATE**, registrando automáticamente los cambios en la tabla de bitácora y sincronizándose con el backend vía API Node.js.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/19972de1-18a5-4ca1-8787-c84c02f9f4f9](https://github.com/user-attachments/assets/159db40f-12c4-41a0-87c7-3919bdd8d6d2" width="600">
+  <img src="https://github.com/user-attachments/assets/25468658-5829-4eac-8986-2e0224895111" width="600">
 </p>
 
 **Endpoints relacionados:**  
