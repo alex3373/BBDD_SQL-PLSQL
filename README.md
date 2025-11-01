@@ -50,7 +50,7 @@ Ejemplo de trigger aplicado tras una operación **UPDATE**, registrando automát
 Ejecución de un package PL/SQL y de procedimientos almacenados mediante peticiones al backend desplegado en Oracle Cloud.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a380ce76-a10d-4793-9c44-aba87b8bbfbe" width="600">
+  <img src="https://github.com/user-attachments/assets/10cef3fa-d7d4-412c-bf07-64f2b5d788da" width="600">
 </p>
 
 **Endpoints relacionados:**  
