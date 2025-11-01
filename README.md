@@ -44,7 +44,7 @@ Ejecución de un package PL/SQL y de procedimientos almacenados mediante peticio
   <img src="https://github.com/user-attachments/assets/a380ce76-a10d-4793-9c44-aba87b8bbfbe" width="600">
 </p>
 
-**Endpoint relacionado:**  
+**Endpoints relacionados:**  
 `GET https://api.0003333.xyz/api/generar-informe/:anio`  
 `GET https://api.0003333.xyz/api/porcentaje-vendedor`
 
@@ -84,13 +84,18 @@ El flujo de trabajo entre base de datos y backend permite:
 - Consultar y actualizar información mediante **API REST**.  
 - Visualizar resultados y reportes a través del **frontend Next.js**.  
 
-Diagrama de flujo general:
-
 ```mermaid
 graph LR
   A[(Oracle Database - PL/SQL)] --> B[[API NodeJS - Oracle Cloud]]
   B --> C([Frontend NextJS - Firebase Hosting])
 ```
+
+---
+
+## Repositorios Relacionados
+
+- [Backend (Node.js + Oracle Cloud)](https://github.com/alex3373/backend_gestion_oracle)
+- [Frontend (Next.js + Firebase Hosting)](https://github.com/alex3373/frontend_ventas)
 
 ---
 
