@@ -13,6 +13,13 @@ Incluye:
 
 ---
 
+## Repositorios Relacionados
+
+- [Backend (Node.js + Oracle Cloud)](https://github.com/alex3373/Oracle_Gestion_API)
+- [Frontend (Next.js + Firebase Hosting)](https://github.com/alex3373/Frontend_Gestion_BBDD)
+
+---
+
 ## Modelo ER
 
 Estructura general del modelo entidad-relación de la base de datos.
@@ -90,12 +97,6 @@ graph LR
   B --> C([Frontend NextJS - Firebase Hosting])
 ```
 
----
-
-## Repositorios Relacionados
-
-- [Backend (Node.js + Oracle Cloud)](https://github.com/alex3373/backend_gestion_oracle)
-- [Frontend (Next.js + Firebase Hosting)](https://github.com/alex3373/frontend_ventas)
 
 ---
 
