@@ -35,13 +35,15 @@ Estructura general del modelo entidad-relación de la base de datos.
 Ejemplo de trigger aplicado tras una operación **UPDATE**, registrando automáticamente los cambios en la tabla de bitácora y sincronizándose con el backend vía API Node.js.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/19972de1-18a5-4ca1-8787-c84c02f9f4f9" width="600">
+  <img src="https://github.com/user-attachments/assets/19972de1-18a5-4ca1-8787-c84c02f9f4f9](https://github.com/user-attachments/assets/159db40f-12c4-41a0-87c7-3919bdd8d6d2" width="600">
 </p>
 
-**Endpoint relacionado:**  
-`GET https://api.0003333.xyz/api/bitacora`
+**Endpoints relacionados:**  
+`PUT https://api.0003333.xyz/api/vendedor/:rut/sueldo` – Actualiza el sueldo base de un vendedor, activando el trigger de auditoría en la base de datos.  
+`GET https://api.0003333.xyz/api/bitacora` – Consulta los registros generados automáticamente por los triggers.
 
----
+
+
 
 ## Ejecución Remota de Procedimientos
 
