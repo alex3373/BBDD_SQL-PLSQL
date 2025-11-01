@@ -64,7 +64,7 @@ Ejecución de un package PL/SQL y de procedimientos almacenados mediante peticio
 Ejecución repetida del proceso en un mismo año genera detección automática de errores y registro en la tabla de auditoría.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/17eb1640-6244-4742-96cb-f855ef8e80eb" width="600">
+  <img src="https://github.com/user-attachments/assets/e792a11d-db3f-45ce-84d4-8ad037bb3eea" width="600">
 </p>
 
 **Endpoint relacionado:**  
@@ -72,18 +72,6 @@ Ejecución repetida del proceso en un mismo año genera detección automática d
 
 ---
 
-## Bitácora de Eventos
-
-Todos los errores y operaciones relevantes quedan almacenados en la tabla de bitácora para seguimiento y depuración.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b2b52e3f-88f9-4988-9acd-b0f2ab54dfa0" width="600">
-</p>
-
-**Endpoint relacionado:**  
-`GET https://api.0003333.xyz/api/bitacora`
-
----
 
 ## Integración Completa
 
